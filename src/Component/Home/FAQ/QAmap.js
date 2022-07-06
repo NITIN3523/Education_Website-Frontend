@@ -8,7 +8,7 @@ export default function QAmap() {
             <div className='my-10'>
                 <h1 className='text-4xl text-white font-bold text-center'>Frequently Asked Question</h1>
             </div>
-            <div div className="innercontent flex flex-wrap justify-around gap-3 pb-10 md:gap-8" >
+            <div className="innercontent flex flex-wrap justify-around gap-3 pb-10 md:gap-8" >
                 {
                     QA.map((value, index) => {
                         return (
