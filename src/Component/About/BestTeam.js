@@ -16,7 +16,7 @@ export default function BestTeam() {
                                         <li><i className="fa-brands fa-instagram-square fa-3x ml-3 hover:text-gray-400 cursor-pointer"></i></li>
                                         <li><i className="fa-brands fa-twitter-square fa-3x ml-3 hover:text-gray-400 cursor-pointer"></i></li>
                                         <li><i className="fa-brands fa-linkedin fa-3x ml-3 hover:text-gray-400 cursor-pointer"></i></li>
-                                        <li><i className="fa-solid fa-user fa-2x py-[0.33rem] px-[0.34rem] ml-3  text-gray-900 cursor-pointer bg-white rounded hover:bg-gray-400"></i></li>
+                                        <li><i className="fa-solid fa-user fa-2x py-[0.33rem] px-[0.34rem] ml-3  text-gray-900 cursor-pointer bg-white rounded hover:bg-gray-400" title='Profile'></i></li>
                                     </ol>
                                 </div>
                                 <h1 className='text-3xl text-center font-semibold text-slate-300 p-2'>{val.name}</h1>

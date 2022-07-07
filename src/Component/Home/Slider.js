@@ -32,11 +32,11 @@ export default function Slider() {
                 <div className='content absolute text-white lg:top-[11rem] lg:left-36 lg:w-[33rem] top-[10rem] left-[4rem] w-80 md:top-[12rem] md:left-28 md:w-96'>
                     <h1 className='lg:text-4xl text-3xl lg:font-bold font-semibold break-words'>Grow your skills to advance your career path</h1>
                     <h2 className='lg:text-xl lg:font-normal mt-5 break-words'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, itaque.</h2>
-                    <button className='mt-5 bg-violet-600 lg:text-xl p-2 lg:font-medium'>Get Started</button>
+                    <button className='mt-5 bg-violet-600 lg:text-xl p-2 lg:font-medium hover:bg-purple-400'>Get Started</button>
                 </div>
                 <div
                     className="left absolute top-[16rem] left-[0%]">
-                    <i className="fa-solid fa-chevron-left fa-2x text-white hover:bg-violet-600 p-2 rounded-lg"
+                    <i className="fa-solid fa-chevron-left fa-2x  hover:bg-gray-300 p-3 rounded text-white hover:text-slate-900"
                         onClick={() => {
                             if (id == 0) {
                                 setimgpath(false)
@@ -47,7 +47,7 @@ export default function Slider() {
                 </div>
                 <div
                     className="right absolute top-[16rem] right-[0%]">
-                    <i className="fa-solid fa-chevron-right fa-2x text-white hover:bg-violet-600 p-2 rounded-lg"
+                    <i className="fa-solid fa-chevron-right fa-2x hover:bg-gray-300 p-3 rounded text-white hover:text-slate-900"
                         onClick={() => {
                             if (id == (SliderApi.length - 1)) {
                                 setimgpath(false)
