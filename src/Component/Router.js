@@ -4,7 +4,7 @@ import Home from './Home/Home'
 import About from './About/About'
 import Courses from './Courses/Courses'
 import Contact from './Contact/Contect'
-import LoginSinup from './LoginSinup'
+import LoginSinup from './LoginSinup/LoginSinup'
 
 export default function Router() {
     return (
