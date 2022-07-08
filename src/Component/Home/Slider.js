@@ -14,7 +14,7 @@ export default function Slider() {
             setid(0)
         }
         else {
-            liindex[id].className = "active";
+            liindex[id].className = "homecircleactive";
         }
         for (let i = 0; i < SliderApi.length; i++) {
             if (i == id) {

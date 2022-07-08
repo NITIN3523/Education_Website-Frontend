@@ -10,9 +10,9 @@ export default function LeftRight() {
                 {
                     change ?
                         <div>
-                            <h1 className='text-4xl font-semibold'>User SinUp</h1>
-                            <p className='mt-2 break-words text-xl'>Don't have Account SinUp here.</p>
-                            <button className='mt-2 bg-violet-600 lg:text-xl p-2 lg:font-medium hover:bg-purple-400 w-fit text-white rounded' onClick={() => setchange(false)}>SinUp</button>
+                            <h1 className='text-4xl font-semibold'>User SingUp</h1>
+                            <p className='mt-2 break-words text-xl'>Don't have Account SingUp here.</p>
+                            <button className='mt-2 bg-violet-600 lg:text-xl p-2 lg:font-medium hover:bg-purple-400 w-fit text-white rounded' onClick={() => setchange(false)}>SingUp</button>
                         </div>
                         :
                         <div>

@@ -10,18 +10,8 @@ body {
   background-color:rgb(17 24 39);
 }
 
-.active{
+.homecircleactive{
   color:azure
-}
-
-.profile {
-  bottom: -100%;
-  transition: all 0.5s;   
-  align-items: center;
-}
-
-.iamageprofile:hover .profile {
-  bottom: 0;
 }
 
 .leftlogin{
@@ -32,4 +22,32 @@ body {
 .leftcontact{
   background-image: url(https://i2.wp.com/files.123freevectors.com/wp-content/original/29680-dark-color-background-template.jpg);
   background-position: 60%;
+}
+.navburger{
+  display: none;
+}
+@media (max-width : 670px) {
+  .navburger{
+    display:block;
+  }
+
+  .navfeatures{
+    display: none;
+  }
+
+  .navinnercontent{
+    justify-content: space-between;
+    flex-direction: column;
+  } 
+
+  .navimgbur{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-bottom: solid white;
+    border-bottom-width: 2px;
+    width: 100%;
+  } 
 }
