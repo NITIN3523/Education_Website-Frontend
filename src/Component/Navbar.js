@@ -30,7 +30,7 @@ export default function Navbar() {
                         <NavLink to="/Courses" className={({ isActive }) => active(isActive)}>Courses</NavLink>
                         <NavLink to="/Contact" className={({ isActive }) => active(isActive)}>Contact</NavLink>
                         <NavLink to="/LoginSinup" className={({ isActive }) => active(isActive)}>
-                            Login/SingUp
+                            SignUp
                         </NavLink>
                     </div>
                 </div>

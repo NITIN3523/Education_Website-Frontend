@@ -10,9 +10,9 @@ export default function LeftRight() {
                 {
                     change ?
                         <div>
-                            <h1 className='text-4xl font-semibold'>User SingUp</h1>
-                            <p className='mt-2 break-words text-xl'>Don't have Account SingUp here.</p>
-                            <button className='mt-2 bg-violet-600 lg:text-xl p-2 lg:font-medium hover:bg-purple-400 w-fit text-white rounded' onClick={() => setchange(false)}>SingUp</button>
+                            <h1 className='text-4xl font-semibold'>User SignUp</h1>
+                            <p className='mt-2 break-words text-xl'>Don't have Account SignUp here.</p>
+                            <button className='mt-2 bg-violet-600 lg:text-xl p-2 lg:font-medium hover:bg-purple-400 w-fit text-white rounded' onClick={() => setchange(false)}>SignUp</button>
                         </div>
                         :
                         <div>
@@ -42,7 +42,7 @@ export default function LeftRight() {
                             <input type="email" placeholder='Email' className='bg-slate-900 py-1 px-3 hover:outline hover:outline-3 text-white hover:outline-violet-600' required />
                             <input type="text" placeholder='Password' className='bg-slate-900 py-1 px-3 hover:outline hover:outline-3 text-white hover:outline-violet-600' required />
                             <input type="password" placeholder='Confirm Password' className='bg-slate-900 py-1 px-3 hover:outline hover:outline-3 text-white hover:outline-violet-600' required />
-                            <button className=' bg-violet-600 lg:text-xl p-2 lg:font-medium hover:bg-purple-400 w-fit text-white rounded'>SinUp</button>
+                            <button className=' bg-violet-600 lg:text-xl p-2 lg:font-medium hover:bg-purple-400 w-fit text-white rounded'>SignUp</button>
                         </form>
                 }
             </div>
